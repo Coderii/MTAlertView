@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MTAlertViewDemo" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="jtI-wF-xxs">
+                                <rect key="frame" x="20" y="180" width="560" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="68m-H3-D8X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="68m-H3-D8X"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="68m-H3-D8X"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2016 ChengPeng. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="sGh-ji-qVA">
+                                <rect key="frame" x="20" y="559" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="xqP-BY-GcK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="xqP-BY-GcK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="xqP-BY-GcK"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sGh-ji-qVA" firstAttribute="top" secondItem="jtI-wF-xxs" secondAttribute="bottom" constant="336" id="70j-tY-zlT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sGh-ji-qVA" secondAttribute="trailing" id="R2z-wH-kRR"/>
+                            <constraint firstItem="jtI-wF-xxs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="fg2-SU-QnA"/>
+                            <constraint firstItem="sGh-ji-qVA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="hLv-83-k4w"/>
+                            <constraint firstItem="jtI-wF-xxs" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="nfP-7n-7Xz"/>
+                            <constraint firstItem="jtI-wF-xxs" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="ss2-7h-9xT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jtI-wF-xxs"/>
+                                <exclude reference="sGh-ji-qVA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="fg2-SU-QnA"/>
+                                <exclude reference="nfP-7n-7Xz"/>
+                                <exclude reference="ss2-7h-9xT"/>
+                                <exclude reference="70j-tY-zlT"/>
+                                <exclude reference="R2z-wH-kRR"/>
+                                <exclude reference="hLv-83-k4w"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="jtI-wF-xxs"/>
+                                <include reference="sGh-ji-qVA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="fg2-SU-QnA"/>
+                                <include reference="nfP-7n-7Xz"/>
+                                <include reference="ss2-7h-9xT"/>
+                                <include reference="70j-tY-zlT"/>
+                                <include reference="R2z-wH-kRR"/>
+                                <include reference="hLv-83-k4w"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>

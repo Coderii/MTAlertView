@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A334ED1F1D37B49100D75F45 /* MTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A334ED1E1D37B49100D75F45 /* MTAlertView.m */; };
+		A3355A7B1D2CF50000842904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3355A7A1D2CF50000842904 /* main.m */; };
+		A3355A7E1D2CF50000842904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3355A7D1D2CF50000842904 /* AppDelegate.m */; };
+		A3355A841D2CF50000842904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3355A821D2CF50000842904 /* Main.storyboard */; };
+		A3355A861D2CF50000842904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3355A851D2CF50000842904 /* Assets.xcassets */; };
+		A3355A891D2CF50000842904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3355A871D2CF50000842904 /* LaunchScreen.storyboard */; };
+		A3355A941D2CF50100842904 /* MTAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3355A931D2CF50100842904 /* MTAlertViewTests.m */; };
+		A3355A9F1D2CF50100842904 /* MTAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3355A9E1D2CF50100842904 /* MTAlertViewUITests.m */; };
+		A338A73B1D378B50009E7524 /* MTPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A338A73A1D378B50009E7524 /* MTPopView.m */; };
+		A33F81781D348AAB00B98F35 /* MTDemoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F81771D348AAB00B98F35 /* MTDemoNavigationController.m */; };
+		A360D3C61D34F18C002637DC /* MTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A360D3C51D34F18C002637DC /* MTAnimation.m */; };
+		A3B44BBA1D3A549500E11DF6 /* MTDemoTabelViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B44BB71D3A549500E11DF6 /* MTDemoTabelViewControllerOne.m */; };
+		A3B44BBB1D3A549500E11DF6 /* MTDemoTabelViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B44BB91D3A549500E11DF6 /* MTDemoTabelViewControllerTwo.m */; };
+		A3C119D31D3145FD008AAECB /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C119D21D3145FD008AAECB /* test@2x.png */; };
+		A3C2C2521D2F3E91002C1509 /* crossMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C2C2511D2F3E91002C1509 /* crossMark@2x.png */; };
+		A3C2C2541D2F3E98002C1509 /* crossMark.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C2C2531D2F3E98002C1509 /* crossMark.png */; };
+		A3CB138C1D41DEF8008C4CFE /* UIButton+MTButtonCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB138B1D41DEF8008C4CFE /* UIButton+MTButtonCreate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3355A901D2CF50100842904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3355A6E1D2CF50000842904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3355A751D2CF50000842904;
+			remoteInfo = MTAlertView;
+		};
+		A3355A9B1D2CF50100842904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3355A6E1D2CF50000842904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3355A751D2CF50000842904;
+			remoteInfo = MTAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A334ED1D1D37B49100D75F45 /* MTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAlertView.h; sourceTree = "<group>"; };
+		A334ED1E1D37B49100D75F45 /* MTAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAlertView.m; sourceTree = "<group>"; };
+		A3355A761D2CF50000842904 /* MTAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3355A7A1D2CF50000842904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3355A7C1D2CF50000842904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3355A7D1D2CF50000842904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3355A831D2CF50000842904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3355A851D2CF50000842904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3355A881D2CF50000842904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3355A8A1D2CF50000842904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3355A8F1D2CF50100842904 /* MTAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3355A931D2CF50100842904 /* MTAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAlertViewTests.m; sourceTree = "<group>"; };
+		A3355A951D2CF50100842904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3355A9A1D2CF50100842904 /* MTAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3355A9E1D2CF50100842904 /* MTAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAlertViewUITests.m; sourceTree = "<group>"; };
+		A3355AA01D2CF50100842904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A338A7391D378B50009E7524 /* MTPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopView.h; sourceTree = "<group>"; };
+		A338A73A1D378B50009E7524 /* MTPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopView.m; sourceTree = "<group>"; };
+		A33F81761D348AAB00B98F35 /* MTDemoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDemoNavigationController.h; sourceTree = "<group>"; };
+		A33F81771D348AAB00B98F35 /* MTDemoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDemoNavigationController.m; sourceTree = "<group>"; };
+		A360D3C41D34F18C002637DC /* MTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAnimation.h; sourceTree = "<group>"; };
+		A360D3C51D34F18C002637DC /* MTAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAnimation.m; sourceTree = "<group>"; };
+		A3B44BB61D3A549500E11DF6 /* MTDemoTabelViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDemoTabelViewControllerOne.h; sourceTree = "<group>"; };
+		A3B44BB71D3A549500E11DF6 /* MTDemoTabelViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDemoTabelViewControllerOne.m; sourceTree = "<group>"; };
+		A3B44BB81D3A549500E11DF6 /* MTDemoTabelViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDemoTabelViewControllerTwo.h; sourceTree = "<group>"; };
+		A3B44BB91D3A549500E11DF6 /* MTDemoTabelViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDemoTabelViewControllerTwo.m; sourceTree = "<group>"; };
+		A3C119D21D3145FD008AAECB /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
+		A3C2C2511D2F3E91002C1509 /* crossMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crossMark@2x.png"; sourceTree = "<group>"; };
+		A3C2C2531D2F3E98002C1509 /* crossMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossMark.png; sourceTree = "<group>"; };
+		A3CB138A1D41DEF8008C4CFE /* UIButton+MTButtonCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MTButtonCreate.h"; sourceTree = "<group>"; };
+		A3CB138B1D41DEF8008C4CFE /* UIButton+MTButtonCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MTButtonCreate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3355A731D2CF50000842904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3355A8C1D2CF50100842904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3355A971D2CF50100842904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3355A6D1D2CF50000842904 = {
+			isa = PBXGroup;
+			children = (
+				A3355A781D2CF50000842904 /* MTAlertView */,
+				A3355A921D2CF50100842904 /* MTAlertViewTests */,
+				A3355A9D1D2CF50100842904 /* MTAlertViewUITests */,
+				A3355A771D2CF50000842904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3355A771D2CF50000842904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3355A761D2CF50000842904 /* MTAlertView.app */,
+				A3355A8F1D2CF50100842904 /* MTAlertViewTests.xctest */,
+				A3355A9A1D2CF50100842904 /* MTAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3355A781D2CF50000842904 /* MTAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A3355AB01D2CFDD800842904 /* Others */,
+				A3C2C2501D2F3E78002C1509 /* Resources */,
+				A3355AAF1D2CFDCE00842904 /* Classes */,
+				A3355A791D2CF50000842904 /* Supporting Files */,
+			);
+			path = MTAlertView;
+			sourceTree = "<group>";
+		};
+		A3355A791D2CF50000842904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3355A821D2CF50000842904 /* Main.storyboard */,
+				A3355A851D2CF50000842904 /* Assets.xcassets */,
+				A3355A871D2CF50000842904 /* LaunchScreen.storyboard */,
+				A3355A8A1D2CF50000842904 /* Info.plist */,
+				A3355A7A1D2CF50000842904 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3355A921D2CF50100842904 /* MTAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3355A931D2CF50100842904 /* MTAlertViewTests.m */,
+				A3355A951D2CF50100842904 /* Info.plist */,
+			);
+			path = MTAlertViewTests;
+			sourceTree = "<group>";
+		};
+		A3355A9D1D2CF50100842904 /* MTAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3355A9E1D2CF50100842904 /* MTAlertViewUITests.m */,
+				A3355AA01D2CF50100842904 /* Info.plist */,
+			);
+			path = MTAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		A3355AAF1D2CFDCE00842904 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A360D3C41D34F18C002637DC /* MTAnimation.h */,
+				A360D3C51D34F18C002637DC /* MTAnimation.m */,
+				A338A7391D378B50009E7524 /* MTPopView.h */,
+				A338A73A1D378B50009E7524 /* MTPopView.m */,
+				A334ED1D1D37B49100D75F45 /* MTAlertView.h */,
+				A334ED1E1D37B49100D75F45 /* MTAlertView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A3355AB01D2CFDD800842904 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A3CB138A1D41DEF8008C4CFE /* UIButton+MTButtonCreate.h */,
+				A3CB138B1D41DEF8008C4CFE /* UIButton+MTButtonCreate.m */,
+				A3355A7C1D2CF50000842904 /* AppDelegate.h */,
+				A3355A7D1D2CF50000842904 /* AppDelegate.m */,
+				A33F81761D348AAB00B98F35 /* MTDemoNavigationController.h */,
+				A33F81771D348AAB00B98F35 /* MTDemoNavigationController.m */,
+				A3B44BB61D3A549500E11DF6 /* MTDemoTabelViewControllerOne.h */,
+				A3B44BB71D3A549500E11DF6 /* MTDemoTabelViewControllerOne.m */,
+				A3B44BB81D3A549500E11DF6 /* MTDemoTabelViewControllerTwo.h */,
+				A3B44BB91D3A549500E11DF6 /* MTDemoTabelViewControllerTwo.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		A3C2C2501D2F3E78002C1509 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3C119D21D3145FD008AAECB /* test@2x.png */,
+				A3C2C2511D2F3E91002C1509 /* crossMark@2x.png */,
+				A3C2C2531D2F3E98002C1509 /* crossMark.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3355A751D2CF50000842904 /* MTAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3355AA31D2CF50100842904 /* Build configuration list for PBXNativeTarget "MTAlertView" */;
+			buildPhases = (
+				A3355A721D2CF50000842904 /* Sources */,
+				A3355A731D2CF50000842904 /* Frameworks */,
+				A3355A741D2CF50000842904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTAlertView;
+			productName = MTAlertView;
+			productReference = A3355A761D2CF50000842904 /* MTAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3355A8E1D2CF50100842904 /* MTAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3355AA61D2CF50100842904 /* Build configuration list for PBXNativeTarget "MTAlertViewTests" */;
+			buildPhases = (
+				A3355A8B1D2CF50100842904 /* Sources */,
+				A3355A8C1D2CF50100842904 /* Frameworks */,
+				A3355A8D1D2CF50100842904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3355A911D2CF50100842904 /* PBXTargetDependency */,
+			);
+			name = MTAlertViewTests;
+			productName = MTAlertViewTests;
+			productReference = A3355A8F1D2CF50100842904 /* MTAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3355A991D2CF50100842904 /* MTAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3355AA91D2CF50100842904 /* Build configuration list for PBXNativeTarget "MTAlertViewUITests" */;
+			buildPhases = (
+				A3355A961D2CF50100842904 /* Sources */,
+				A3355A971D2CF50100842904 /* Frameworks */,
+				A3355A981D2CF50100842904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3355A9C1D2CF50100842904 /* PBXTargetDependency */,
+			);
+			name = MTAlertViewUITests;
+			productName = MTAlertViewUITests;
+			productReference = A3355A9A1D2CF50100842904 /* MTAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3355A6E1D2CF50000842904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = meitu;
+				TargetAttributes = {
+					A3355A751D2CF50000842904 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SW9TH7TPPT;
+					};
+					A3355A8E1D2CF50100842904 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3355A751D2CF50000842904;
+					};
+					A3355A991D2CF50100842904 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3355A751D2CF50000842904;
+					};
+				};
+			};
+			buildConfigurationList = A3355A711D2CF50000842904 /* Build configuration list for PBXProject "MTAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3355A6D1D2CF50000842904;
+			productRefGroup = A3355A771D2CF50000842904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3355A751D2CF50000842904 /* MTAlertView */,
+				A3355A8E1D2CF50100842904 /* MTAlertViewTests */,
+				A3355A991D2CF50100842904 /* MTAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3355A741D2CF50000842904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C119D31D3145FD008AAECB /* test@2x.png in Resources */,
+				A3355A891D2CF50000842904 /* LaunchScreen.storyboard in Resources */,
+				A3355A861D2CF50000842904 /* Assets.xcassets in Resources */,
+				A3C2C2541D2F3E98002C1509 /* crossMark.png in Resources */,
+				A3C2C2521D2F3E91002C1509 /* crossMark@2x.png in Resources */,
+				A3355A841D2CF50000842904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3355A8D1D2CF50100842904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3355A981D2CF50100842904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3355A721D2CF50000842904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B44BBA1D3A549500E11DF6 /* MTDemoTabelViewControllerOne.m in Sources */,
+				A338A73B1D378B50009E7524 /* MTPopView.m in Sources */,
+				A3CB138C1D41DEF8008C4CFE /* UIButton+MTButtonCreate.m in Sources */,
+				A360D3C61D34F18C002637DC /* MTAnimation.m in Sources */,
+				A3355A7E1D2CF50000842904 /* AppDelegate.m in Sources */,
+				A3355A7B1D2CF50000842904 /* main.m in Sources */,
+				A334ED1F1D37B49100D75F45 /* MTAlertView.m in Sources */,
+				A33F81781D348AAB00B98F35 /* MTDemoNavigationController.m in Sources */,
+				A3B44BBB1D3A549500E11DF6 /* MTDemoTabelViewControllerTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3355A8B1D2CF50100842904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3355A941D2CF50100842904 /* MTAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3355A961D2CF50100842904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3355A9F1D2CF50100842904 /* MTAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3355A911D2CF50100842904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3355A751D2CF50000842904 /* MTAlertView */;
+			targetProxy = A3355A901D2CF50100842904 /* PBXContainerItemProxy */;
+		};
+		A3355A9C1D2CF50100842904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3355A751D2CF50000842904 /* MTAlertView */;
+			targetProxy = A3355A9B1D2CF50100842904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3355A821D2CF50000842904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3355A831D2CF50000842904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3355A871D2CF50000842904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3355A881D2CF50000842904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3355AA11D2CF50100842904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3355AA21D2CF50100842904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3355AA41D2CF50100842904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A3355AA51D2CF50100842904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A3355AA71D2CF50100842904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTAlertView.app/MTAlertView";
+			};
+			name = Debug;
+		};
+		A3355AA81D2CF50100842904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTAlertView.app/MTAlertView";
+			};
+			name = Release;
+		};
+		A3355AAA1D2CF50100842904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTAlertView;
+			};
+			name = Debug;
+		};
+		A3355AAB1D2CF50100842904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3355A711D2CF50000842904 /* Build configuration list for PBXProject "MTAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3355AA11D2CF50100842904 /* Debug */,
+				A3355AA21D2CF50100842904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3355AA31D2CF50100842904 /* Build configuration list for PBXNativeTarget "MTAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3355AA41D2CF50100842904 /* Debug */,
+				A3355AA51D2CF50100842904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3355AA61D2CF50100842904 /* Build configuration list for PBXNativeTarget "MTAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3355AA71D2CF50100842904 /* Debug */,
+				A3355AA81D2CF50100842904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3355AA91D2CF50100842904 /* Build configuration list for PBXNativeTarget "MTAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3355AAA1D2CF50100842904 /* Debug */,
+				A3355AAB1D2CF50100842904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3355A6E1D2CF50000842904 /* Project object */;
+}
