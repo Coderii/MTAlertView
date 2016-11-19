@@ -1,139 +1,134 @@
 # MTPopView + MTAlertView
 
-### ç®€ä»‹
-#### MTPopViewç”¨æ¥æä¾›å¼¹å‡ºè§†å›¾æ¨¡æ¿å’Œå¼¹å‡ºåŠ¨ç”»ã€‚   
-#### MTAlertViewç»§æ‰¿è‡³MTPopViewï¼Œè¿›è¡Œäº†ä¸€äº›åŠŸèƒ½çš„å°è£…ã€‚å…·ä½“çš„åŠŸèƒ½è§è¯¦ç»†çš„æ¥å…¥æ­¥éª¤ã€‚
+### ¼ò½é
+#### MTPopViewÓÃÀ´Ìá¹©µ¯³öÊÓÍ¼Ä£°åºÍµ¯³ö¶¯»­¡£   
+#### MTAlertView¼Ì³ĞÖÁMTPopView£¬½øĞĞÁËÒ»Ğ©¹¦ÄÜµÄ·â×°¡£¾ßÌåµÄ¹¦ÄÜ¼ûÏêÏ¸µÄ½ÓÈë²½Öè¡£
 
-#### SDKè”ç³»äºº
-|è”ç³»äºº|è§’è‰²|QQ|é‚®ç®±|
-|:-:|:-:|:-:|:-:|
-|ç¨‹é¹|iOSç»„ä»¶å¼€å‘|877281964|cp@meitu.com|
+### Ê¹ÓÃËµÃ÷
+#### »·¾³ÒªÇó
+* iOS°æ±¾ÒªÇó: >= 7.0
 
-### ä½¿ç”¨è¯´æ˜
-#### ç¯å¢ƒè¦æ±‚
-* iOSç‰ˆæœ¬è¦æ±‚: >= 7.0
+#### ½ÓÈë²½Öè
 
-#### æ¥å…¥æ­¥éª¤
-
-* æ¥å£è°ƒç”¨è¯´æ˜
+* ½Ó¿Úµ÷ÓÃËµÃ÷
 
  	* MTAnimation
- 		* ç»™Viewæ·»åŠ æ˜¾ç¤ºåŠ¨ç”»
+ 		* ¸øViewÌí¼ÓÏÔÊ¾¶¯»­
 
  				[MTAnimation animationShowInView:self style:style completion:^{
-	 					//åŠ¨ç”»å®Œæˆçš„Blockå›è°ƒ
+	 					//¶¯»­Íê³ÉµÄBlock»Øµ÷
  				    }]; 
  				    
- 		* ç»™Viewæ·»åŠ éšè—åŠ¨ç”»
+ 		* ¸øViewÌí¼ÓÒş²Ø¶¯»­
 
 				[MTAnimation animationHideInView:self style:style completion:^{
-						//åŠ¨ç”»å®Œæˆçš„Blockå›è°ƒ
+						//¶¯»­Íê³ÉµÄBlock»Øµ÷
 				    }];
 	* MTPopView
-		* åˆå§‹åŒ–MTPopView
+		* ³õÊ¼»¯MTPopView
 				
-				//éœ€è¦è¿›è¡Œè‡ªå®šä¹‰çš„Viewè§†å›¾
+				//ĞèÒª½øĞĞ×Ô¶¨ÒåµÄViewÊÓÍ¼
 				UIView *customeView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
 				
-				//ç¬¬ä¸€ç§åˆå§‹åŒ–æ–¹æ³•
+				//µÚÒ»ÖÖ³õÊ¼»¯·½·¨
 				MTPopView *popView = [[MTPopView alloc] initPopViewWith:customeView];
 				
-				//ç¬¬äºŒç§åˆå§‹åŒ–
+				//µÚ¶şÖÖ³õÊ¼»¯
 				MTPopView *popView = [[MTPopView alloc] init];
 				popView.customeView = customeView; 
 				 
-		* æ˜¾ç¤ºMTPopView
+		* ÏÔÊ¾MTPopView
 
-				//ä¸æä¾›çˆ¶è§†å›¾ï¼Œé»˜è®¤æ˜¾ç¤ºåœ¨å½“å‰çª—å£ï¼Œä¸æä¾›åŠ¨ç”»
+				//²»Ìá¹©¸¸ÊÓÍ¼£¬Ä¬ÈÏÏÔÊ¾ÔÚµ±Ç°´°¿Ú£¬²»Ìá¹©¶¯»­
 				[popView show];
 		
-				//æä¾›æŒ‡å®šæ˜¾ç¤ºçš„è§†å›¾ï¼Œä¸æä¾›åŠ¨ç”»
+				//Ìá¹©Ö¸¶¨ÏÔÊ¾µÄÊÓÍ¼£¬²»Ìá¹©¶¯»­
 				[popView showInParentView:[UIApplication sharedApplication].keyWindow];
 		    
-		    	//æŒ‡å®šè§†å›¾æ˜¾ç¤ºï¼Œå¹¶ä¸”æä¾›åŠ¨ç”»
+		    	//Ö¸¶¨ÊÓÍ¼ÏÔÊ¾£¬²¢ÇÒÌá¹©¶¯»­
 				[popView showInParentView:[UIApplication sharedApplication].keyWindow animation:MTAnimationStyleFade completion:^{
-					//åŠ¨ç”»å®Œæˆå¤„ç†çš„Blockå‡½æ•°
+					//¶¯»­Íê³É´¦ÀíµÄBlockº¯Êı
 				}];
 				MTAlertAction *action = [MTAlertAction actionWithTitle:@"1" style:MTAlertActionStyleDefault handler:^(MTAlertAction *alertAction) {
-					//æŒ‰é’®ç‚¹å‡»äº‹ä»¶åœ¨æ­¤å®ç°
+					//°´Å¥µã»÷ÊÂ¼şÔÚ´ËÊµÏÖ
 				}
 		
-		* éšè—MTPopView
+		* Òş²ØMTPopView
 
-				//æ— åŠ¨ç”»éšè—
+				//ÎŞ¶¯»­Òş²Ø
 				[popView dissmiss];
 				
-				//å¸¦åŠ¨ç”»éšè—
+				//´ø¶¯»­Òş²Ø
 				[popView dissmissAnimation:MTAnimationStyleSlideFromTop completion:^{
-					//åŠ¨ç”»æ¶ˆå¤±åå¤„ç†äº‹ä»¶
+					//¶¯»­ÏûÊ§ºó´¦ÀíÊÂ¼ş
 				}];
     
-    	* å±å¹•æ—‹è½¬äº‹ä»¶ï¼ˆå­ç±»ç»§æ‰¿éœ€é‡å†™ï¼Œåˆ·æ–°ç›¸åº”çš„æ§ä»¶ï¼‰
+    	* ÆÁÄ»Ğı×ªÊÂ¼ş£¨×ÓÀà¼Ì³ĞĞèÖØĞ´£¬Ë¢ĞÂÏàÓ¦µÄ¿Ø¼ş£©
 
     			- (void)handleDeviceOrientationDidChange:(UIInterfaceOrientation)interfaceOrientation {
-    				//å±å¹•æ—‹è½¬
+    				//ÆÁÄ»Ğı×ª
     			}
     			
    * MTAlertView
-		* åˆå§‹åŒ–MTAlertView
+		* ³õÊ¼»¯MTAlertView
 		
 		   		MTAlertView *alertView = [[MTAlertView alloc] initWithTitle:@"1" subTitle:@"2" message:@"3" delegate:self actionShowStyle:MTAlertActionShowStyleList];
 		
-		* åˆå§‹åŒ–é»˜è®¤æ·»åŠ æ§ä»¶ä¸ºæŒ‰é’®çš„MTAlertAction
+		* ³õÊ¼»¯Ä¬ÈÏÌí¼Ó¿Ø¼şÎª°´Å¥µÄMTAlertAction
 
 				MTAlertAction *action = [MTAlertAction actionWithDefaultTypeWithTitle:@"1" style:MTAlertActionStyleDefault handler:^(MTAlertAction *action) {
-				 	//å¤„ç†äº‹ä»¶
+				 	//´¦ÀíÊÂ¼ş
 				 }];
 				 
- 		* åˆå§‹åŒ–æ·»åŠ æ§ä»¶ä¸ºå¯è‡ªå®šä¹‰Viewçš„MTAlertActionï¼ˆå¦‚å¯ä»¥è‡ªå®šä¹‰åœ¨Viewä¸Šæ·»åŠ æŒ‰é’®ï¼‰
+ 		* ³õÊ¼»¯Ìí¼Ó¿Ø¼şÎª¿É×Ô¶¨ÒåViewµÄMTAlertAction£¨Èç¿ÉÒÔ×Ô¶¨ÒåÔÚViewÉÏÌí¼Ó°´Å¥£©
 					
 			   	MTAlertAction *action = [MTAlertAction actionWithCustomeViewTypeWithViewSize:CGSizeMake(300, 60) handleCustomeView:^(UIView *customeView) {
-				   	//åœ¨æ­¤å¯ä»¥æ“ä½œcustomeView
+				   	//ÔÚ´Ë¿ÉÒÔ²Ù×÷customeView
 				}];
 				
-		* å¾€alertViewæ·»åŠ action
+		* ÍùalertViewÌí¼Óaction
 
 			    [alertView addAction:action];
 		
-		* æ‰¹é‡æ·»åŠ action
+		* ÅúÁ¿Ìí¼Óaction
 
 			    [alertView addActions:@[action, action1, action2,]];
  			
-		* å‚æ•°è¯´æ˜
+		* ²ÎÊıËµÃ÷
 
-				actionShowStyle:MTAlertActioné›†åˆä¸­æ§ä»¶çš„æ’åºæ–¹å¼
+				actionShowStyle:MTAlertAction¼¯ºÏÖĞ¿Ø¼şµÄÅÅĞò·½Ê½
 				typedef NS_ENUM(NSUInteger, MTAlertActionShowStyle) {
-					 MTAlertActionShowStyleNone = 0, /**< æ²¡æœ‰ï¼ŒåŠç³»ç»Ÿé»˜è®¤ **/
-   					 MTAlertActionShowStyleList, /**< ä¸€è¡Œå¤šåˆ— **/
-   					 MTAlertActionShowStyleRows, /**< åªæœ‰ä¸€åˆ—ï¼Œå¤šè¡Œ **/
+					 MTAlertActionShowStyleNone = 0, /**< Ã»ÓĞ£¬¼°ÏµÍ³Ä¬ÈÏ **/
+   					 MTAlertActionShowStyleList, /**< Ò»ĞĞ¶àÁĞ **/
+   					 MTAlertActionShowStyleRows, /**< Ö»ÓĞÒ»ÁĞ£¬¶àĞĞ **/
 				} NS_AVAILABLE_IPHONE(7.0);
 				
-				style:é»˜è®¤ä¸ºæŒ‰é’®çš„æ—¶å€™æŒ‰é’®çš„æ ·å¼ï¼Œå…·ä½“å¦‚ä¸‹
+				style:Ä¬ÈÏÎª°´Å¥µÄÊ±ºò°´Å¥µÄÑùÊ½£¬¾ßÌåÈçÏÂ
 				typedef NS_ENUM(NSUInteger, MTAlertActionStyle) {
-    				MTAlertActionStyleDefault = 0,  /**< è“è‰² **/
-   					MTAlertActionStyleCancel,   /**< è“è‰²åŠ ç²— **/
-   					MTAlertActionStyleDestructive,  /**< çº¢è‰² **/
+    				MTAlertActionStyleDefault = 0,  /**< À¶É« **/
+   					MTAlertActionStyleCancel,   /**< À¶É«¼Ó´Ö **/
+   					MTAlertActionStyleDestructive,  /**< ºìÉ« **/
 				} NS_AVAILABLE_IOS(7.0);
 				
-		* æ·»åŠ å…³é—­æŒ‰é’®
+		* Ìí¼Ó¹Ø±Õ°´Å¥
 
 				[alertView addCloseButtonSize:CGSizeMake(30, 30) handleCloseButton:^(UIButton *closeButton) {
-					//æ“ä½œå…³é—­æŒ‰é’®çš„Blockå‡½æ•°
+					//²Ù×÷¹Ø±Õ°´Å¥µÄBlockº¯Êı
 				}];
 				
-		* æ›´æ”¹AlertViewå†…éƒ¨çš„Labelçš„ä½ç½®å’Œæ ·å¼
+		* ¸ü¸ÄAlertViewÄÚ²¿µÄLabelµÄÎ»ÖÃºÍÑùÊ½
 				
-				//ä»¥æ“ä½œæ ‡é¢˜Labelä¸ºä¾‹
+				//ÒÔ²Ù×÷±êÌâLabelÎªÀı
 				alertView.subLabelAlignment = MTAlertViewSubTitleLabelAlignmentRight;
 				alertView.subTitleLabel.font = [UIFont systemFontOfSize:15.0];
 				alertView.subTitleLabel.textColor = [UIColor blueColor];
 				
-		* æ›´æ”¹AlertViewå†…éƒ¨çš„ä¸€äº›æ§ä»¶ä½ç½®
+		* ¸ü¸ÄAlertViewÄÚ²¿µÄÒ»Ğ©¿Ø¼şÎ»ÖÃ
 
 				alertView.labelMargin = 0;
 				//...
 		
-		* æ˜¾ç¤ºéšè—åŒçˆ¶ç±»æ–¹æ³•ï¼Œéœ€è¦æ³¨æ„çš„æ˜¯ï¼Œé‡å†™çš„æ—¶å€™ï¼Œéœ€è¦è°ƒç”¨ç›¸åº”çš„çˆ¶ç±»æ–¹æ³•ï¼Œå¦‚:
+		* ÏÔÊ¾Òş²ØÍ¬¸¸Àà·½·¨£¬ĞèÒª×¢ÒâµÄÊÇ£¬ÖØĞ´µÄÊ±ºò£¬ĞèÒªµ÷ÓÃÏàÓ¦µÄ¸¸Àà·½·¨£¬Èç:
 
 			   	[super showInParentView:parentView];
 			   	
